@@ -25,44 +25,11 @@ function pizza3()
 }
 
 
-var cont1 = document.getElementById("cont1");
-cont1.style.display="none";
-var cont2 = document.getElementById("cont2");
-cont2.style.display="none";
-
-
-
-
-
-
-function activado1()
-{
-    const dato6 =document.querySelector(".cont-1");
-    
-    
-    
-        
-    if(cont2.style.display="none")
-    {
-        dato6.classList.toggle("active");
-        cont2.style.display=="none";
-        cont1.style.display=="block";
-       
+function openCity(cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
     }
-    
-
-
-}
-
-function activado2()
-{
-    const dato7 =document.querySelector(".cont-2");
-    dato7.classList.toggle("active");
-
-    var cont1 = document.getElementById("cont1");
-    if(
-
-    )
-
-
-}
+    document.getElementById(cityName).style.display = "block";  
+  }
