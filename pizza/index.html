@@ -51,20 +51,20 @@
 
     <div class="container">
         <div class="row-2">
-            <div class="col-1" onclick="activado1()">
+            <div class="col-1" onclick="openventana('cont')">
                 <p >Pizza</p>
             </div>
-            <div class="col-2" onclick="activado2()">
+            <div class="col-2" onclick="openventana('cont-2')">
                 <p>Hamburguesa</p>
             </div>
-            <div class="col-3">
+            <div class="col-3" onclick="openventana('cont-2')>
                 <p>Refresco</p>
             </div>
 
         </div>
     </div>
-    <div class="cont-1" id="cont1"> 
-        <div class="container" id="cont">
+    
+        <div class="container city" id="cont" style="display: none;">
             <div class="row-3">
                 <div class="col-1"><img src="/pizza/img/Pizza/pizza1.png" alt="">
                     <h3 class="tittle-row3"> PIZZA 1</h3>
@@ -89,10 +89,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 
-    <div class="cont-2"  id="cont2"> 
-        <div class="container" id="cont">
+   
+        <div class="container city" id="cont-2" style="display: none;">
             <div class="row-3">
                 <div class="col-1"><img src="/pizza/img/Hamburger/burgers1.png" alt="">
                     <h3 class="tittle-row3"> PIZZA 1</h3>
@@ -117,7 +117,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    
     <br>
 </body>
 

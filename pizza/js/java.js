@@ -25,7 +25,7 @@ function pizza3()
 }
 
 
-function openCity(cityName) {
+function openventana(cityName) {
     var i;
     var x = document.getElementsByClassName("city");
     for (i = 0; i < x.length; i++) {
