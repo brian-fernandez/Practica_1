@@ -620,7 +620,7 @@ footer .row .col-4 a{
 /*040*/
 .fondo
 {
-  background-image: url(img/error-404.jpg);
+  background-image: url(/img/error-404.jpg);
   width: 100%;
   height: 575px;
 }
