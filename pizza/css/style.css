@@ -292,7 +292,7 @@
 
 
 
-.container .row-3 .col-1 a
+.container .row-3 .col-1 h6
 {
     text-align: center;
     padding: 10px;
@@ -301,7 +301,7 @@
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-.container .row-3 .col-1 a:hover{
+.container .row-3 .col-1 h6:hover{
 background-color: black;
 transition: 0.5s;
 }
@@ -350,7 +350,7 @@ transition: 0.5s;
 
 
 
-.container .row-3 .col-2 a
+.container .row-3 .col-2 h6
 {
     text-align: center;
     padding: 10px;
@@ -359,7 +359,7 @@ transition: 0.5s;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-.container .row-3 .col-2 a:hover{
+.container .row-3 .col-2 h6:hover{
 background-color: black;
 transition: 0.5s;
 }
@@ -400,7 +400,7 @@ transition: 0.5s;
 
 
 
-.container .row-3 .col-3 a
+.container .row-3 .col-3 h6
 {
     text-align: center;
     padding: 10px;
@@ -409,7 +409,7 @@ transition: 0.5s;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-.container .row-3 .col-3 a:hover{
+.container .row-3 .col-3 h6:hover{
 background-color: black;
 transition: 0.5s;
 }
@@ -460,6 +460,120 @@ transition: 0.5s;
 
 
 
+.vent-carrito
+{
+    display: none;
+    text-align: center;
+    background-color: rgb(33, 202, 84);
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    position: fixed;
+    z-index: 10;
+    right: 0px;
+    
+}
+
+.vent-carrito .span1
+{
+    background-color: rgb(179, 213, 245);
+    padding: 5px;
+    margin: 20px;
+}.vent-carrito .span1:hover{
+    background-color: teal;
+}
+.vent-carrito .span2
+{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin: 20px;
+}.vent-carrito .span2:hover
+{
+    background-color: black;
+}
+
+
+
+
+
+footer
+{
+    background: #343a3c;
+    width: 100%;
+    
+}
+.footer .row 
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+footer .row .col-1
+{
+    width: 25%;
+    font-family: 'Roboto', sans-serif;
+    color: #aab4b7;
+    
+    padding: 10px;
+}
+footer .row .col-1 img{
+    margin: 10px;
+}
+
+footer .row .col-2
+{
+    width: 25%;
+    
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #aab4b7;
+}
+.tittle2
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+    font-size: 3em;
+    color: rgb(255, 38, 0);
+    text-shadow: 0px 14px 45px rgba(0, 0, 0, 0.5), 1px 5px 10px rgb(0 0 0 / 20%);
+}
+
+footer .row .col-3
+{
+    width: 25%;
+    
+    padding: 10px;
+}
+footer .row .col-3 h1
+{
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: #aab4b7;
+}
+footer .row .col-3 p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+footer .row .col-4
+{
+    width: 25%;
+    
+    padding: 10px;
+    display: grid;
+}
+footer .row .col-4 a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -503,5 +617,25 @@ transition: 0.5s;
     }
 }
 
-
-
+/*040*/
+.fondo
+{
+  background-image: url(img/error-404.jpg);
+  width: 100%;
+  height: 575px;
+}
+.atras
+{
+  font-size: 3em;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    animation: 1s texto infinite;
+}
+@keyframes texto
+{
+  0%
+  {
+    transform: translateX(-1000px);
+  }
+}

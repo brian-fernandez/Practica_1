@@ -9,6 +9,14 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="vent-carrito" id="vent">
+
+            <h1>Productos añadidos al carrito: <strong id="num"></strong>
+            </h1> <span class="span1">Finalizar Compra</span> <span class="span2" onclick="eliminar()">Eliminar
+                lista</span>
+        </div>
+    </div>
     <div class='navMenu' id='navMenuId'>
         <a href='' class='main_links'>Nuestro Menu</a>
         <a href='undefined' class='main_links'>Nosotros</a>
@@ -52,7 +60,7 @@
     <div class="container">
         <div class="row-2">
             <div class="col-1" onclick="openventana('cont')">
-                <p >Pizza</p>
+                <p>Pizza</p>
             </div>
             <div class="col-2" onclick="openventana('cont-2')">
                 <p>Hamburguesa</p>
@@ -63,93 +71,124 @@
 
         </div>
     </div>
-    
-        <div class="container city" id="cont" style="display: none;">
-            <div class="row-3">
-                <div class="col-1"><img src="/pizza/img/Pizza/pizza1.png" alt="">
-                    <h3 class="tittle-row3"> PIZZA 1</h3>
-                    <h4 class="ver" onclick="pizza()">Ver ingredientes</h4>
-                    <p class="parrafo-row3" id="parrafo-1"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
-                <div class="col-2"><img src="/pizza/img/Pizza/pizza2.png" alt="">
-                    <h3 class="tittle-row3">PIZZA 2</h3>
-                    <h4 class="ver" onclick="pizza2()">Ver ingredientes</h4>
-                    <p class="parrafo-row3" id="parrafo-2"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
-                <div class="col-3"><img src="/pizza/img/Pizza/pizza6.png" alt="">
-                    <h3 class="tittle-row3">PIZZA 3</h3>
-                    <h4 class="ver" onclick="pizza3()">Ver ingredientes</h4>
-                    <p class="parrafo-row3" id="parrafo-3"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
+
+    <div class="container city" id="cont" style="display: none;">
+        <div class="row-3">
+            <div class="col-1"><img src="/pizza/img/Pizza/pizza1.png" alt="">
+                <h3 class="tittle-row3"> PIZZA 1</h3>
+                <h4 class="ver" onclick="pizza()">Ver ingredientes</h4>
+                <p class="parrafo-row3" id="parrafo-1"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
+
+            </div>
+            <div class="col-2"><img src="/pizza/img/Pizza/pizza2.png" alt="">
+                <h3 class="tittle-row3">PIZZA 2</h3>
+                <h4 class="ver" onclick="pizza2()">Ver ingredientes</h4>
+                <p class="parrafo-row3" id="parrafo-2"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
+            </div>
+            <div class="col-3"><img src="/pizza/img/Pizza/pizza6.png" alt="">
+                <h3 class="tittle-row3">PIZZA 3</h3>
+                <h4 class="ver" onclick="pizza3()">Ver ingredientes</h4>
+                <p class="parrafo-row3" id="parrafo-3"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
             </div>
         </div>
-    
+    </div>
 
-   
-        <div class="container city" id="cont-2" style="display: none;">
-            <div class="row-3">
-                <div class="col-1"><img src="/pizza/img/Hamburger/burgers1.png" alt="">
-                    <h3 class="tittle-row3"> hamburger 1</h3>
-                    <h4 class="ver" onclick="hamburger()">Ver ingredientes</h4>
-                    <p class="parrafo-row3" id="parrafo-1-1"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
-                <div class="col-2"><img src="/pizza/img/Hamburger/burgers2.png" alt="">
-                    <h3 class="tittle-row3">hamburger 2</h3>
-                    <h4 class="ver" onclick="hamburger2()">Ver ingredientes</h4>
-                    <p class="parrafo-row3" id="parrafo-2-2"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
-                <div class="col-3"><img src="/pizza/img/Hamburger/burgers3.png" alt="">
-                    <h3 class="tittle-row3">hamburger 3</h3>
-                    <h4 class="ver" onclick="hamburger3()">Ver ingredientes</h4>
-                    <p class="parrafo-row3" id="parrafo-3-3"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
+
+
+    <div class="container city" id="cont-2" style="display: none;">
+        <div class="row-3">
+            <div class="col-1"><img src="/pizza/img/Hamburger/burgers1.png" alt="">
+                <h3 class="tittle-row3"> hamburger 1</h3>
+                <h4 class="ver" onclick="hamburger()">Ver ingredientes</h4>
+                <p class="parrafo-row3" id="parrafo-1-1"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
+            </div>
+            <div class="col-2"><img src="/pizza/img/Hamburger/burgers2.png" alt="">
+                <h3 class="tittle-row3">hamburger 2</h3>
+                <h4 class="ver" onclick="hamburger2()">Ver ingredientes</h4>
+                <p class="parrafo-row3" id="parrafo-2-2"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
+            </div>
+            <div class="col-3"><img src="/pizza/img/Hamburger/burgers3.png" alt="">
+                <h3 class="tittle-row3">hamburger 3</h3>
+                <h4 class="ver" onclick="hamburger3()">Ver ingredientes</h4>
+                <p class="parrafo-row3" id="parrafo-3-3"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
             </div>
         </div>
+    </div>
 
 
 
-        <div class="container city" id="cont-3" style="display: none;">
-            <div class="row-3">
-                <div class="col-1"><img src="/pizza/img/Refrescos/pepsi.png" alt="" width="100%">
-                    <h3 class="tittle-row3"> PEPSI</h3>
-                    
-                    <p class="parrafo-row3" id="parrafo-1"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
-                <div class="col-2"><img src="/pizza/img/Refrescos/sprite.png" alt="" width="100%">
-                    <h3 class="tittle-row3">SPRITE</h3>
-                   
-                    <p class="parrafo-row3" id="parrafo-2"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
-                <div class="col-3"><img src="/pizza/img/Refrescos/fanta.png" alt="" width="100%">
-                    <h3 class="tittle-row3">FANTA</h3>
-                    
-                    <p class="parrafo-row3" id="parrafo-3"></p>
-                        <br>
-                        <a  href=""> Comprar</a>
-                </div>
+    <div class="container city" id="cont-3" style="display: none;">
+        <div class="row-3">
+            <div class="col-1"><img src="/pizza/img/Refrescos/pepsi.png" alt="" width="100%">
+                <h3 class="tittle-row3"> PEPSI</h3>
+
+                <p class="parrafo-row3" id="parrafo-1"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
+            </div>
+            <div class="col-2"><img src="/pizza/img/Refrescos/sprite.png" alt="" width="100%">
+                <h3 class="tittle-row3">SPRITE</h3>
+
+                <p class="parrafo-row3" id="parrafo-2"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
+            </div>
+            <div class="col-3"><img src="/pizza/img/Refrescos/fanta.png" alt="" width="100%">
+                <h3 class="tittle-row3">FANTA</h3>
+
+                <p class="parrafo-row3" id="parrafo-3"></p>
+                <br>
+                <h6 class="top" onclick="añadir()"> Comprar</h6>
             </div>
         </div>
-    
+    </div>
+
     <br>
 </body>
 
+<footer>
+    <div class="row">
+        <div class="col-1">
+            <img src="/pizza/img/descargar.png" alt="">
+            <p>Estudiante : Brayan Fernandez Mercado <br>
+                Carrera : Ingeneria de Sistemas <br>
+                Materia : Diseño Web 2</p>
+        </div>
+        <div class="col-2">
+            <h1 class="tittle2">Pizzaburger</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore libero, saepe eligendi magni enim aut
+                optio distinctio porro natus quas. Delectus non, ipsum doloribus eligendi nobis sed dignissimos
+                consectetur ducimus?</p>
+        </div>
+        <div class="col-3">
+            <h1>Centro de llamadas </h1>
+            <br>
+            <p>Linea 1 :xxx-xxxx-xxxx </p> <br>
+            <p>Linea 1 :xxx-xxxx-xxxx </p>
+        </div>
+        <div class="col-4">
+            <a href=''>Nuestro Menu</a>
+            <a href='undefined'>Nosotros</a>
+            <a href=''>Contacto</a>
+
+        </div>
+    </div>
+</footer>
+
 
 <script src="/pizza/js/java.js"></script>
+<script src="/pizza/js/conteo.js"></script>
 
 </html>
