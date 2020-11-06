@@ -304,4 +304,56 @@ footer .row .col-4 a{
     .navMenu .dropdown-content {
         position: relative
     }
+
+
+    /*gf*/
+
+    .container .row {
+        width: 100%;
+        display: block;
+        background-color: #d5d2d1;
+    }
+
+    .container .row .col-1 {
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+        font-size: 1.1em;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .row .col-2 {
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+        font-size: 1.1em;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    
+
+    .container .row-2 {
+        width: 100%;
+        display: block;
+        background-color: #d5d2d1;
+    }
+    .container .row-2 .col-1 {
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+        font-size: 1.1em;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .row-2 .col-2 {
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+        font-size: 1.1em;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    footer .row {
+        width: 100%;
+        position: relative;
+        display: block;
+    }
 }

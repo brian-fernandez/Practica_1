@@ -615,6 +615,35 @@ footer .row .col-4 a{
     .navMenu .dropdown-content {
         position: relative
     }
+
+
+
+    /*f*/
+
+    .row {
+        width: 100%;
+        display: block;
+    }
+    .row .col-1 {
+        width: 100%;
+    }
+    .row .col-2 {
+        width: 100%;
+    }
+    
+
+    .container .row-3 .col-1 {
+        width: 30%; 
+         padding: 0px; 
+    }
+    .container .row-3 .col-2 {
+        width: 30%; 
+         padding: 0px; 
+    }
+    .container .row-3 .col-3 {
+        width: 30%; 
+         padding: 0px; 
+    }
 }
 
 /*040*/

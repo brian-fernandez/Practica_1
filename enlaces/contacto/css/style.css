@@ -295,4 +295,15 @@ footer .row .col-4 a{
     .navMenu .dropdown-content {
         position: relative
     }
+
+    .container .row {
+        width: 100%;
+        display: block;
+        margin: 20% 0px;
+    }
+    footer .row {
+        width: 100%;
+        position: relative;
+        display: block;
+    }
 }
